@@ -4,7 +4,7 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 
 
-model = joblib.load(open("random_forest_model.joblib", "rb"))
+model = joblib.load("random_forest_model.joblib")
 
 st.title("Crop Recommandation")
 
